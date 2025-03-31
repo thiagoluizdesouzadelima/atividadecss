@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grade de Shows - SomWeb</title>
+  <style>
+    body{
+        background-color: #5b6b8a;
+        margin: 0;
+        padding: 20px;
+    }
+    .container {
+        background-color: #b2b2b2;
+        padding: 20px;
+        border-radius: 10px; /*arrendonda*/
+        max-width: 600px;/*Define máximo*/
+        margin: auto;
+    }
+    
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    .grid{
+        text-align: center;
+      display: grid;
+      grid-template-columns: 100px 150px 200px 1fr; /* Definição da largura*/
+      background-color: #ffffff;
+      max-width: 700px;
+      margin: auto;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .item {
+      padding: 12px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .cabecalho {
+      background-color: #3f403f;
+      color: white;
+      font-weight: bold;
+    }
+
+    .item:last-child {
+      border-bottom: none;
+    }
+    #voltalink{
+        text-align: left;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 style="text-align: center;">Próximos Shows - System of Down</h1>
+    <div class="container">
+        <a href="ativ1-2.html"  id="voltalink" >Voltar ao site</a>
+      <div class="grid">
+        <div class="item cabecalho">Data</div>
+        <div class="item cabecalho">Cidade</div>
+        <div class="item cabecalho">Local</div>
+        <div class="item cabecalho">Artista</div>
+
+        <div class="item">10/04</div>
+        <div class="item">São Paulo</div>
+        <div class="item">Allianz Parque</div>
+        <div class="item">System of a Down</div>
+
+        <div class="item">15/04</div>
+        <div class="item">Rio de Janeiro</div>
+        <div class="item">Jeunesse Arena</div>
+        <div class="item">System of Down</div>
+
+        <div class="item">22/04</div>
+        <div class="item">Belo Horizonte</div>
+        <div class="item">Mineirão</div>
+        <div class="item">System of Down</div>
+
+        <div class="item">30/04</div>
+        <div class="item">Curitiba</div>
+        <div class="item">Pedreira Paulo Leminski</div>
+        <div class="item">System of Down</div>
+
+        <div class="item">05/05</div>
+        <div class="item">Porto Alegre</div>
+        <div class="item">Beira-Rio</div>
+        <div class="item">System of Down</div>
+      </div>
+    </div>
+</body>
+</html>
